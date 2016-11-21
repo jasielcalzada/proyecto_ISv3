@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{%block content %}
+<style type="text/css">
+	#b2{
+		background-color: #42a5f5 ;
+	}
+</style>
+<body id="b2">
+	{{object.serie}}<br>
+	{{object.nombre}}<br>
+	{{object.maestro_a}}<br>
+</body>
+{%endblock%}
